@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TextView
+       			android:id="@+id/SHOW_DEVICE"
+        		android:layout_width="78dp"
+        		android:layout_height="190dp"
+        		android:text="" />
+            <Button
+        android:id="@+id/BTN_ON"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:text="ON" />
+
+    <Button
+        android:id="@+id/BTN_OFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF" />
+
+    <Button
+        android:id="@+id/BTN_LIST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIST" />
+
+    <TextView
+        android:id="@+id/SHOW_DATA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+        </LinearLayout>
+        
+           
+    </ScrollView>
+
+ 
+
+</LinearLayout>
